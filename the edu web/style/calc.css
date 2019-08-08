@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.button{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+#textview{
+    width: 300px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    
+}
+
+#calc {
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}

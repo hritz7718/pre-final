@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    
+        <link rel="stylesheet" type="text/css" href="/style/index1.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.them.css"> 
+    <title>
+
+    </title>
+    <body>
+        <div class="container">
+                <div class="header">
+                        <h1>header</h1>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="index1.html">home</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">contact</a></li>
+                            <li><a href="login.html">login</a></li>
+                            <li><a href="signup.html">sign up</a></li>
+                            <li><a href="">notifications</a></li>
+                        </ul>
+                    </div>
+
+        <div class="content">
+                <h1>2 simulataneous eqns</h1>
+                <p>enter eqns in the form of ax+by=c </p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>coeff of x</th>
+                        <th>coeff of y</th>
+                        <th>constant term</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><input type="number" id="a1"></td>
+                        <td><input type="number" id="b1"></td>
+                        <td><input type="number" id="c1"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><input type="number" id="a2"></td>
+                        <td><input type="number" id="b2"></td>
+                        <td><input type="number" id="c2"></td>
+                    </tr>
+                </table>
+                
+                <p class="par2"></p>
+                <p class="par2"></p>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button onclick="solve_2_eqn()">enter</button>
+        
+        </div>
+        </div>
+    </body>
+    <script src="/js_files/math.js"></script>
+    
+    <script src="/js_files/jquery-3.4.1.js"></script>
+    <script src="/jquery-ui/jquery-ui.js"></script>
+    <script src="/js_files/index1.js"></script>
+    <script src="app.js"></script>
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
+</html>

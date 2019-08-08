@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="/style/calc.css">
+        <link rel="stylesheet" type="text/css" href="/style/index1.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+        <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.them.css">     
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>header</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index1.html">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="signup.html">sign up</a></li>
+                    <li><a href="">notifications</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div id="calc">
+                    <input id="textview" name="textview">
+                    <table>
+                        <tr>
+                            <td><input class="button" type="button" value="C" onclick="clear_()"></td>
+                            <td><input class="button" type="button" value="B" onclick="back_()"></td>
+                            <td><input class="button" type="button" value="/" onclick="insert('/')"></td>  
+                            <td><input class="button" type="button" value="x" onclick="insert('*')"></td>
+                            <td><input class="button" type="button" value="," onclick="insert(',')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+                            <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+                            <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+                            <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+                            <td><input class="button" type="button" value="pi" onclick="insert('Math.PI')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+                            <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+                            <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+                            <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+                            <td><input class="button" type="button" value="rtx" onclick="insert('Math.sqrt(')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                            <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+                            <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+                            <td><input class="button" type="button" value="=" onclick="equal()"></td>
+                            <td><input class="button" type="button" value="x^y" onclick="insert('Math.pow(')"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+                            <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                            <td><input class="button" type="button" value="(" onclick="insert('(')"></td>
+                            <td><input class="button" type="button" value=")" onclick="insert(')')"></td>
+                            <td><input class="button" type="button" value="x!" onclick="factorial()"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><input class="button" type="button" value="sin" onclick="trigo('sin')"></td>
+                            <td><input class="button" type="button" value="tan" onclick="trigo('tan')"></td>
+                            <td><input class="button" type="button" value="cos" onclick="trigo('cos')"></td>
+                            <td><input class="button" type="button" value="x" onclick="trigo('x')"></td>
+                        </tr>   
+                    </table>
+                </div>
+            </div>
+            </div>
+    </body>
+    <script src="/js_files/jquery-3.4.1.js"></script>
+    <script src="/jquery-ui/jquery-ui.js"></script>
+    <script src="/js_files/index1.js"></script>
+    <script src="app.js"></script>
+    <script src="/js_files/trial.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        });
+    </script>
+</html>

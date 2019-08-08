@@ -1,0 +1,121 @@
+
+<doctype! html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/style/index1.css">
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.them.css"> 
+    <title>
+        title1
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index1.html">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="signup.html">sign up</a></li>
+                <li><a href="">notifications</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <h2>videos</h2>
+            <div>
+                <a href="">physics</a><br>
+                <a href="">chem</a><br>
+                <a href="">math</a><br>
+            </div>
+            <h2>formulas</h2>
+            <div>
+                <a href="">physics</a><br>
+                <a href="">chem</a><br>
+                <a href="">math</a><br>
+            </div>
+            <h2>calculator</h2>
+                <div class="cal">
+                    <h2>mech</h2>
+                        <div>
+                            <a href="summ_forces.html">1. summation of forces</a><br>
+                            <a href="">2. momentum</a>
+                        </div>
+                    <h2>math</h2>
+                        <div>
+                            <a href="two_eqns.html">1. solve 2 equations</a>
+                            <a href="three_eqns.html">2. solve 3 equations</a>
+                            <a href="factorization.html">3. factorization</a>
+                            <a href="matrix_2x2.html">4. operation on matrix 2</a>
+                            <a href="matrix_3x3.html">4. operation on matrix 3</a>
+                        </div>
+                    <h2>electrical</h2>
+                        <div>
+                            <a href="voltage_rms.html">1. superposition of voltages</a><br>
+                            <a href="">2. rms current</a>
+                        </div>
+                    <h2>graphical</h2>
+                        <div>
+                            <a href="">1. draw graph</a>
+                        </div>
+                    <h2>others</h2>
+                        <div>
+                            <a href="calculator.html">1. basic calc</a>
+                        </div>
+                </div>            
+
+        </div>
+        <div class="main">
+            <label for="doubts" style="font-size: 30px; text-align: center;"> 
+                &nbsp;
+                ask your doubt here!
+            </label><br>
+            &nbsp;
+            <input type="text" id="doubts">
+            <button onclick="ask()">ASK</button><br>
+            <p id="recent" onmouseover="show()" > &nbsp click here for recently asked questions.</p>
+        </div>
+    <script src="/js_files/jquery-3.4.1.js"></script>
+    <script src="/jquery-ui/jquery-ui.js"></script>
+    <script src="/js_files/index1.js"></script>
+    <script src="app.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".search").accordion({collapsible: true, animate: 0, active: 4, heightStyle: "content"},{icons :{ header: "ui-icon-plus", activeHeader: "ui-icon-minus"}});
+            $(".cal").accordion({collapsible: true, animate: 0, active: 8, heightStyle: "content"},{icons :{ header: "ui-icon-plus", activeHeader: "ui-icon-minus"}});
+        });
+    </script>
+</body>
+</html>
+<!--
+    <ul id="vertical">
+        <li><a href="">formulas</a>
+            <ul>
+                <li><a href="">phy</a></li>
+                <li><a href="">chem</a></li>
+                <li><a href="">math</a></li>
+            </ul>
+        </li>
+        <li><a href="">videos</a>
+            <ul>
+                <li><a href="">phy</a></li>
+                <li><a href="">chem</a></li>
+                <li><a href="">math</a></li>
+            </ul>
+        </li>
+        <li><a href="">calc</a>
+            <ul>
+                <li><a href="">mech</a></li>
+                <li><a href="">ele</a></li>
+                <li><a href="">math</a></li>
+                <li><a href="">graphical</a></li>
+            </ul>
+        </li>
+    </ul>
+
+-->

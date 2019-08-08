@@ -1,0 +1,196 @@
+
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+div.container {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: gray;
+}
+
+div.header {
+    font-size: 25px;
+    text-align: center;
+    width: 994px;
+    background-color: green;
+    border: white 3px solid; 
+}
+
+div.nav {
+    font-size: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 0;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    border-top: 0px;
+    height: px;
+    width: 994px;
+    background-color: red;
+    vertical-align: middle;
+}
+
+div.search {
+    font-size: px;
+    float: left;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    border-top: 0px;
+    height: 800px;
+    width: 300px;
+    background-color: aqua;
+
+}
+
+div.main {
+    font-size: 30px;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    background-color: blueviolet;
+    height: 800px;
+} 
+
+
+div.nav ul{
+    text-align: center;
+    list-style-type: none;
+
+}
+div.nav ul li{
+  
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+div.nav ul a{
+    text-decoration: none;
+}
+div.nav ul a:hover{
+    color: black;
+    background-color: wheat;
+    padding: 25px;
+}
+
+div.main ul{
+    
+    list-style-type: none;
+}
+
+div.signup_{
+    
+    color: white;
+    background-color: brown;
+    width: 974px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    border-top: 0px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-right: 0;
+    margin: 0;
+    vertical-align: middle;
+    height: 500px;
+    text-align: left;
+
+}
+
+div.signup_ h1{
+    padding-left: 14px;
+}
+
+
+div.signup_ form {
+    padding: 15px;
+    display: table;
+}
+
+div.row {
+    padding: 15px;
+    display: table-row;
+}
+ 
+.row label {
+    display: table-cell;
+    padding: 2px ;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+
+div.login_{
+    
+    color: white;
+    background-color: brown;
+    width: 974px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    border-top: 0px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-right: 0;
+    margin: 0;
+    vertical-align: middle;
+    height: 500px;
+    text-align: left;
+
+}
+
+div.login_ h1{
+padding-left: 10px; 
+}
+
+
+div.login_ form {
+    padding: 15px;
+    display: table;
+}
+
+div.row {
+    padding: 15px;
+    display: table-row;
+}
+ 
+.row label {
+    display: table-cell;
+    padding: 2px ;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+div.search a:hover {
+    color:white;
+    background-color: black;
+}
+
+div.content {
+    color: white;
+    background-color: brown;
+    width: 974px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+    border-top: 0px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    padding-right: 0;
+    margin: 0;
+    vertical-align: middle;
+    height: 600px;
+}

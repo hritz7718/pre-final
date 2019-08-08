@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <link rel="stylesheet" type="text/css" href="/style/index1.css">
+    <link rel="stylesheet" type="text/css" href="/style/calc.css">
+    <link type="text/css" rel="stylesheet" href="/jquery-ui/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="/jquery-ui/jquery-ui.structure.css">
+    <link type="text/css" rel="stylesheet" href="/jquery-ui/jquery-ui.theme.css"> 
+        <title></title>
+    </head>
+    <body>
+            <div class="container">
+                <div class="header">
+                    <h1>header</h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="index1.html">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="login.html">login/signup</a></li>
+                        <li><a href="">notifications</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <input id="v_m" type="number" placeholder="enter vmax or imax here."><br>
+                    <input id="t_1" type="number" placeholder="enter upper parameter here."><br>
+                    <input id="t_2" type="number" placeholder="enter lower parameter here."><br>
+
+                    <input id="v_func" placeholder="enter your func here"><br>
+                    <table>
+                        <tr>
+                            <td><input class="button" type="button" value="C" onclick="clear_()"></td>
+                            <td><input class="button" type="button" value="B" onclick="back_()"></td>
+                            <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+                            <td><input class="button" type="button" value="x" onclick="insert('*')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+                            <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+                            <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+                            <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+                            <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+                            <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+                            <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                            <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+                            <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+                            <td><input class="button" type="button" value="=" onclick="equal()"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+                            <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                            <td><input class="button" type="button" value="(" onclick="insert('(')"></td>
+                            <td><input class="button" type="button" value=")" onclick="insert(')')"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><input class="button" type="button" value="sin" onclick="sin_()"></td>
+                            <td><input class="button" type="button" value="tan" onclick="tan_()"></td>
+                            <td><input class="button" type="button" value="cos" onclick="cos_()"></td>
+                            <td><input class="button" type="button" value="x" onclick="x_()"></td>
+                        </tr>   
+                        <tr>
+                            <td><input class="button" type="button" value="x^y" onclick="insert('Math.pow(x)')"></td>
+                            <td><input class="button" type="button" value="rtx" onclick="insert('Math.sqrt(x')"></td>
+                            <td><input class="button" type="button" value="pi" onclick="insert('Math.PI')"></td>
+                            <td><input class="button" type="button" value="," onclick="insert(',')"></td>
+                            <td><input class="button" type="button" value="int" onclick="integrate()"></td>
+                        </tr>   
+                    </table>
+
+                </div>
+            </div>
+    </body>
+    <script src="/js_files/jquery-3.4.1.js"></script>
+    <script src="/jquery-ui/jquery-ui.js"></script>
+    <script src="/js_files/electrical.js"></script>
+    <script>
+            $(document).ready(function() {
+    
+            });
+    </script>
+</html>
